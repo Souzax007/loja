@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://www.notebookcheck.info/fileadmin/Notebooks/News/_nc3/netflixteaser.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{
+    color: white;
+    background-color: #c765f5;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.for {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2929297f;
+    border-radius: 20px;
+}
+
+.for label {
+    margin-top: 10px;
+    text-align: start;
+    color: white;    
+}
+
+.for input {
+    width: 75%;
+    padding: 8px;
+    font-size: 13px;
+    margin-top: 0px;
+    border: 1px solid #c765f5;
+    border-radius: 4px;
+    background-color: #d8dcd8;
+}
+
+.for button {
+    width: 50%;
+    padding: 8px;
+    margin-top: 20px;
+    background-color: #833EB9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.for button:hover {
+    background-color: #a4be22;
+}
+
+.for p {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.btn {
+    background-color: rgb(123, 17, 199); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: #a4be22;
+}
+.lista-select{
+    background-color: rgb(220, 146, 17);
+    color: #090009;
+    font-size: 15px;
+    width: 50%;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.lista-select option{
+    background-color: rgb(220, 146, 17);
+    color: #ffffff;
+    width: 50%;
+    margin: 3px;
+    padding: 5px;
+}
+span{
+    color: red;
+}
+.checkbox{
+    display: none;
+    font-size: 13px;
+    text-align: center;
+    background-color: rgb(220, 146, 17);
+    border-radius: 20px;
+    color: black;
+}

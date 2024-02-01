@@ -1,0 +1,73 @@
+body{
+    background-color: aqua;
+}
+.tabela{
+    background-color: blueviolet;
+    width: 400px;
+    min-height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+form{
+    margin:0 0 10px 0;
+}
+.tabela div a button{
+    margin: 0 0 10px 0;
+}
+table{
+    width: 100%;
+    background-color: rgb(250, 152, 47);
+    margin: 0;
+    text-align: center;
+}
+th{
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    margin: 0 0 50px 0;
+    display: block;
+}
+li{
+    list-style: none;
+}
+.paginacao a.page-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.paginacao a.page-link:hover {
+    text-decoration: underline;
+    background-color: #287fb8; /* Cor alterada ao passar o mouse */
+}
+    .btn-paginacao-horizontal {
+        list-style-type: none; /* Remove os marcadores de lista */
+        display: flex; /* Torna a lista um contêiner flexível */
+        justify-content: center; /* Distribui os itens uniformemente na horizontal */
+        padding: 0; /* Remove o preenchimento padrão da lista */
+    }
+
+    .btn-paginacao-horizontal .paginacao {
+        margin: 5px; /* Remove as margens padrão dos itens da lista */
+    }
+    .round {
+        border-radius: 100%;
+        overflow: hidden;
+        height: 40px;
+        width: 40px;
+        background: rgb(56, 232, 53);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto; /* Adiciona margem automática nas laterais para centralizar */
+    }
+    
+

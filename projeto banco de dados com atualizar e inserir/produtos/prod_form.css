@@ -1,0 +1,137 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-image: url(img/background.png);
+}
+
+.tabela {
+    background-color: rgba(137, 43, 226, 0.364);
+    width: 80%;
+    min-height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow-x: auto;
+    border-radius: 20px;
+}
+
+form {
+    margin: 0 0 10px 0;
+}
+
+.tabela div a button {
+    margin: 0 0 10px 0;
+}
+
+table {
+    width: 100%;
+    background-color: rgba(208, 46, 46, 0.433);
+    text-align: center;
+}
+
+th {
+    background-color: rgb(2, 2, 2);
+    color: white;
+}
+
+td {
+    color: #fff;
+}
+
+nav {
+    margin: 0 0 50px 0;
+    display: block;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination-btn {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.pagination-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo para telas menores */
+@media screen and (max-width: 768px) {
+    .tabela {
+        width: 100%;
+    }
+
+    .pagination-btn {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        margin: 0 0 5px 0;
+    }
+}
+
+/* Estilo para telas pequenas, como celulares */
+@media screen and (max-width: 480px) {
+    .tabela {
+        padding: 5px;
+    }
+
+    .pagination-btn {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+}
+
+/* Estilo para telas muito pequenas, como celulares com largura máxima de 390px */
+@media screen and (max-width: 390px) {
+    body {
+        background-image: none;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .tabela {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+
+    tr {
+        font-size: 8px;
+    }
+
+    th {
+        font-size: 5px;
+    }
+
+    .pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .pagination-btn {
+        min-width: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .acao {
+        min-width: 10px;
+        font-size: 8px;
+    }
+}
